@@ -1,0 +1,10 @@
+cache
+outputs
+.git
+.pytest_cache
+.ruff_cache
+.venv
+venv
+__pycache__
+*.egg-info
+.streamlit/secrets.toml

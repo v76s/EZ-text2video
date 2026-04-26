@@ -5,12 +5,14 @@ channels:
   - defaults
 dependencies:
   - python=3.10
-  - pip=23.0.1
-  - pytorch=2.0.0
+  - pytorch::pytorch>=2.0
+  - pytorch::torchvision
+  - pip
   - pip:
-    - accelerate==0.18.0
-    - diffusers==0.16.1
-    - transformers==4.29.2
-    - opencv-python==4.7.0.72
-    - numpy==1.26.4
-    - streamlit==1.20.0
+      - accelerate>=0.18,<1.0
+      - diffusers>=0.16.1,<0.27
+      - transformers>=4.29.2,<5
+      - opencv-python>=4.7
+      - numpy>=1.24
+      - streamlit>=1.20
+      - pillow>=9.0

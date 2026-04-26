@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+ez-text2video/ez_text2video.egg-info/PKG-INFO
+ez-text2video/ez_text2video.egg-info/SOURCES.txt
+ez-text2video/ez_text2video.egg-info/dependency_links.txt
+ez-text2video/ez_text2video.egg-info/requires.txt
+ez-text2video/ez_text2video.egg-info/top_level.txt
+ez-text2video/lib/__init__.py
+ez-text2video/lib/generate.py
+ez-text2video/lib/util.py
+tests/test_util.py
