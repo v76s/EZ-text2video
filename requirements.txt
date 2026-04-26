@@ -1,0 +1,11 @@
+# PyTorch: pick the wheel for your OS and accelerator from https://pytorch.org/get-started/locally/
+# Example (CPU, Linux/macOS/Windows via default index):
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+torch>=2.0.0
+accelerate>=0.18.0,<1.0
+diffusers>=0.16.1,<0.27
+transformers>=4.29.2,<5
+opencv-python>=4.7.0.72
+numpy>=1.24.0
+streamlit>=1.20.0
+pillow>=9.0.0
